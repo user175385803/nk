@@ -20,7 +20,7 @@
   "scripts": {
     "editorconfig": "editorconfig-cli",
     "build": "gulp",
-    "start": "npx gulp",
+    "start": "npx gulp"
   },
   "browserslist": [
     "last 2 versions",
