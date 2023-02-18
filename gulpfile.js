@@ -86,21 +86,6 @@ const server = (done) => {
   done();
 }
 
-
-// copy
-export const copy = (done) => {
-  gulp.src([
-    'source/fonts/*.{woff2,woff}',
-    'source/*.ico',
-    'source/manifest.webmanifest',
-  ], {
-    base: 'source'
-  })
-    .pipe(gulp.dest('build'))
-  done();
-}
-
-
 // clean
 export const clean = () => {
   return del('build');
