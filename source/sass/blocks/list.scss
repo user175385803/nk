@@ -1,0 +1,48 @@
+@import "../general/variables.scss";
+
+.list {
+  list-style: none;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 38px;
+
+  &--links {
+    margin-top: 300px;
+    margin-bottom: 0;
+  }
+
+  &--social {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  @media (min-width: $mobile-width) {
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 50px;
+  }
+
+  @media (min-width: $tablet-width) {
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 102px;
+
+    &--links {
+      margin-bottom: 0;
+    }
+
+    &--social {
+      margin-top: 60px;
+      padding-bottom: 50px;
+    }
+  }
+}
+
+.list a {
+  text-decoration: none;
+  color: $color-black;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

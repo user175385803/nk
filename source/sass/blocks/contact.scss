@@ -1,0 +1,21 @@
+@import "../general/variables.scss";
+
+.contact {
+  text-decoration: none;
+  color: $color-black;
+  font-size: 14px;
+  background-color: rgba(195, 192, 168, 0.948);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 6px 8px;
+  transition: 50ms;
+
+  &:hover {
+    background-color: rgba(185, 182, 159, 0.948);
+  }
+
+  &:active {
+    background-color: rgba(169, 166, 144, 0.948);
+  }
+}

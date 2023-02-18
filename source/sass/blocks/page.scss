@@ -1,0 +1,10 @@
+@import "../general/variables.scss";
+
+.page__wrapper {
+  margin: 0 auto;
+  min-width: 320px;
+
+  @media (min-width: $tablet-width) {
+    width: 600px;
+  }
+}

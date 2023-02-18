@@ -1,0 +1,14 @@
+@import "../general/variables.scss";
+
+.picture img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  @media (min-width: $tablet-width) {
+    width: 320px;
+    height: 463px;
+    margin: 0 auto;
+  }
+}
