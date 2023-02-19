@@ -2,14 +2,6 @@ const soundToggle = document.querySelector('.audio__icon');
 const audioControls = document.querySelector('.audio-controls');
 const soundOnToggle = document.querySelector('.audio__on');
 const soundOffToggle = document.querySelector('.audio__off');
-const play = document.querySelector(".play");
-
-function playMusic() {
-  let audio = audioControls;
-  audio.play()
-}
-
-play.addEventListener("click", playMusic);
 
 soundToggle.addEventListener('click', function () {
   if (soundOffToggle.classList.contains('visually-hidden')) {
