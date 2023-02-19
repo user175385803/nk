@@ -9,7 +9,7 @@ const context = new AudioContext();
 document.querySelector('.list--links').addEventListener('mouseenter', () => {
   // resume() method is only allowed if the audio playback is available
   context.resume().then(() => {
-    audioControls.play()
+    audioControls.pla()
     soundToggle.classList.remove('visually-hidden');
   }).catch(() => console.log('not allowed'));
 })
