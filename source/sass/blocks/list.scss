@@ -39,7 +39,6 @@
 .list a {
   text-decoration: none;
   color: $color-black;
-  transition: opacity 150ms;
 
   &:hover {
     opacity: 0.5;
