@@ -6,6 +6,7 @@
     "autoprefixer": "10.4.0",
     "browser-sync": "2.27.7",
     "del": "^7.0.0",
+    "gh-pages": "^5.0.0",
     "gulp": "4.0.2",
     "gulp-dart-sass": "^1.0.2",
     "gulp-htmlmin": "^5.0.1",
@@ -20,7 +21,8 @@
   "scripts": {
     "editorconfig": "editorconfig-cli",
     "build": "gulp",
-    "start": "npx gulp"
+    "start": "npx gulp",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "browserslist": [
     "last 2 versions",

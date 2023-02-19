@@ -14,11 +14,6 @@ document.querySelector('.list--links').addEventListener('mouseenter', () => {
   }).catch(() => console.log('not allowed'));
 })
 
-document.body.addEventListener("pointerenter", () => {
-  console.log('pointer enter has fired')
-  audioControls.play();
-})
-
 soundToggle.addEventListener('click', function () {
   if (soundOffToggle.classList.contains('visually-hidden')) {
     soundOnToggle.classList.add('visually-hidden');
