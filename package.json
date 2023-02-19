@@ -21,7 +21,7 @@
   "scripts": {
     "editorconfig": "editorconfig-cli",
     "build": "gulp",
-    "start": "npx gulp",
+    "start": " gulp",
     "deploy": "npm run build && gh-pages -d build"
   },
   "browserslist": [
