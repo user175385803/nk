@@ -5,14 +5,14 @@ const soundOffToggle = document.querySelector('.audio__off');
 const play = document.querySelector(".button__play");
 
 const context = new AudioContext();
-
+/*
 document.querySelector('.list--links').addEventListener('mouseenter', () => {
   // resume() method is only allowed if the audio playback is available
   context.resume().then(() => {
     audioControls.play()
     soundToggle.classList.remove('visually-hidden');
   }).catch(() => console.log('not allowed'));
-})
+}) */
 
 soundToggle.addEventListener('click', function () {
   if (soundOffToggle.classList.contains('visually-hidden')) {
