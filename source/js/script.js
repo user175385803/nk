@@ -1,3 +1,4 @@
+/*
 const soundToggle = document.querySelector('.audio__icon');
 const audioControls = document.querySelector('.audio-controls');
 const soundOnToggle = document.querySelector('.audio__on');
@@ -25,3 +26,4 @@ soundToggle.addEventListener('click', function () {
     audioControls.muted = false;
   }
 });
+*/
