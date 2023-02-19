@@ -2,9 +2,9 @@
 
 .list {
   list-style: none;
-  font-size: 12px;
-  line-height: 15px;
-  padding-left: 38px;
+  font-size: 13px;
+  line-height: 16px;
+  padding-left: 30px;
 
   &--links {
     margin-top: 300px;
@@ -17,14 +17,12 @@
   }
 
   @media (min-width: $mobile-width) {
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 15px;
+    line-height: 18px;
     padding-left: 50px;
   }
 
   @media (min-width: $tablet-width) {
-    font-size: 14px;
-    line-height: 17px;
     margin-left: 102px;
 
     &--links {
@@ -33,7 +31,7 @@
 
     &--social {
       margin-top: 60px;
-      padding-bottom: 50px;
+      padding-bottom: 40px;
     }
   }
 }
