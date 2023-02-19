@@ -1,20 +1,16 @@
 @import "../general/variables.scss";
 
-.audio__on-icon {
+.audio__icon {
+  border: none;
+  background-color: transparent;
+}
+
+.audio__on,
+.audio__off {
   position: fixed;
   top: 15px;
   right: 11px;
   background-color: transparent;
   border: none;
   cursor: pointer;
-}
-
-.audio__off {
-  position: fixed;
-  top: 19px;
-  right: 19px;
-  width: 7px;
-  height: 14px;
-  background-color: $color-bg;
-  content: "";
 }
