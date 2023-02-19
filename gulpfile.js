@@ -62,6 +62,13 @@ export const copyAudio = () => {
     .pipe(gulp.dest('build/audio'))
 }
 
+// svg
+export const svg = () => {
+  return gulp.src('source/img/*.svg')
+    .pipe(svgo())
+    .pipe(gulp.dest('build/img'))
+}
+
 
 // webp
 export const createWebp = () => {
@@ -113,6 +120,7 @@ export const build = gulp.series(
   optimizeImages,
   gulp.parallel(
     styles,
+    svg,
     html,
     script,
     createWebp
@@ -126,6 +134,7 @@ export default gulp.series(
   copyAudio,
   gulp.parallel(
     styles,
+    svg,
     html,
     script,
     createWebp
