@@ -7,23 +7,23 @@
   padding-left: 30px;
 
   &--links {
-    margin-top: 300px;
+    padding-top: 120px;
     margin-bottom: 0;
   }
 
   &--social {
     margin-top: 50px;
-    margin-bottom: 100px;
+    padding-bottom: 40px;
   }
 
   @media (min-width: $mobile-width) {
     font-size: 15px;
     line-height: 18px;
-    padding-left: 50px;
+    padding-left: 46px;
   }
 
   @media (min-width: $tablet-width) {
-    margin-left: 102px;
+    margin-left: 92px;
 
     &--links {
       margin-bottom: 0;
@@ -31,7 +31,7 @@
 
     &--social {
       margin-top: 60px;
-      padding-bottom: 40px;
+      padding-bottom: 50px;
     }
   }
 }

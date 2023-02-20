@@ -3,15 +3,25 @@
 .contact {
   text-decoration: none;
   color: $color-black;
-  font-size: 15px;
-  background-color: rgba(195, 192, 168, 0.948);
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+  font-size: 13px;
+  position: relative;
+  bottom: 88px;
+  left: 234px;
   padding: 6px 8px;
 
+  @media (min-width: $mobile-width) {
+    font-size: 15px;
+    left: 280px;
+    bottom: 92px;
+  }
+
+  @media (min-width: $tablet-width) {
+    bottom: 102px;
+    left: 368px;
+  }
+
   &:hover {
-    background-color: rgba(185, 182, 159, 0.948);
+    background-color: rgba(195, 192, 168, 0.948);
   }
 
   &:active {
