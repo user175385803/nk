@@ -5,18 +5,18 @@
   color: $color-black;
   font-size: 13px;
   position: relative;
-  bottom: 88px;
+  bottom: 99px;
   left: 234px;
   padding: 6px 8px;
 
   @media (min-width: $mobile-width) {
     font-size: 15px;
-    left: 280px;
-    bottom: 92px;
+    left: 270px;
+    bottom: 102px;
   }
 
   @media (min-width: $tablet-width) {
-    bottom: 102px;
+    bottom: 142px;
     left: 368px;
   }
 
